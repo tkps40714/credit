@@ -1,7 +1,157 @@
 <resources>
     <string name="app_name">CreditCoupon!!</string>
     <string name="title_main">首頁</string>
-    <string name="title_track">追蹤</string>
+    <string name="title_track">分類</string>
     <string name="title_my">我的收藏</string>
     <string name="title_notice">通知</string>
+    <string name="update">update_mount</string>
+    <string name="notification_title">Updating!!!</string>
+    <string name="notification_text">You get new coupons!!</string>
+
+    <!--玉山-->
+    <array name="_images_mount"> 　
+        <item>@drawable/m1</item>
+        <item>@drawable/m2</item>
+        <item>@drawable/m3</item>
+        <item>@drawable/m4</item>
+        <item>@drawable/m5</item>
+    </array>
+
+    <string-array name="image_mount_titles">
+        <item>(玉山銀行)星期一 悠遊樂享5%</item>
+        <item>(玉山銀行)星期二 生鮮好贈點</item>
+        <item>(玉山銀行)星期三 生活藥妝</item>
+        <item>(玉山銀行)星期四 電影饗宴</item>
+        <item>(玉山銀行)星期五 文藝生活</item>
+    </string-array>
+
+    <string-array name="image_mount_content">
+        <item>活動期間：2019/1/1~6/30\n美食咖啡讓Monday不Blue!\n以玉山悠遊聯名卡/Debit金融卡之悠遊卡功能至指定特店消費，咖啡飲料單筆滿100元、生活美食單筆滿300元，享5%回饋!</item>
+        <item>活動期間：2019/1/1~6/30\n於全聯福利中心，使用玉山悠遊聯名卡/Debit金融卡之悠遊卡功能消費單筆滿300元，加贈全聯福利點數60點</item>
+        <item>活動期間：2019/1/1~12/31\n每週三至屈臣氏刷玉山卡，單筆消費滿988元享88折，實體門市、網路商店與APP同享優惠</item>
+        <item>活動期間：2019/1/1~12/31\n每週一至週四，・持購票當月或上月單筆999元(含)以上之同卡號簽單正本乙張至『國賓影城』、『國賓大戲院』享一般、2D電影票全票65折起優惠，・刷玉山卡於『華威天母影城』 、 『華威台中影城』享早場票價優惠</item>
+        <item>活動期間：2019/1/1~12/31\n每週五於誠品書店/expo/伊織今治/猿田彥/誠品電影院刷玉山卡消費，單筆滿888元享100元抵用券；單筆滿 1,288元享150元抵用券，誠品電影院每週五刷玉山卡購票，享卡友優惠價240元；刷玉山卡購買星球爆米花獨享包，享優惠價每包70元</item>
+    </string-array>
+
+    <string-array name="image_mount_uri">
+        <item>https://www.esunbank.com.tw/event/credit/1071220yoyo/index.html</item>
+        <item>https://www.esunbank.com.tw/event/credit/1070525yoyo/index.html</item>
+        <item>https://www.esunbank.com.tw/event/credit/1071205watsons/index.html</item>
+        <item>https://www.esunbank.com.tw/bank/personal/credit-card/discount/shops/literature</item>
+        <item>https://www.esunbank.com.tw/event/credit/1071211pin/index.html</item>
+    </string-array>
+
+    <!--台銀-->
+    <array name="_images_taiwan"> 　
+        <item>@drawable/t1</item>
+        <item>@drawable/t2</item>
+        <item>@drawable/t3</item>
+        <item>@drawable/t4</item>
+        <item>@drawable/t5</item>
+    </array>
+
+    <string-array name="image_taiwan_titles">
+        <item>(台灣銀行)台北老爺大酒店─Le Cafe咖啡廳 - 平日2人午餐75折</item>
+        <item>(台灣銀行)漢堡王 - 享超值量套餐新台幣109元起</item>
+        <item>(台灣銀行)天仁茗茶 - 消費滿額享95折</item>
+        <item>(台灣銀行)家樂福 - 享有會員價及退稅</item>
+        <item>(台灣銀行)台北101 - 購物享9折優惠</item>
+    </string-array>
+
+    <string-array name="image_taiwan_content">
+        <item>恣意享用開放式廚房精心呈獻的自助式無國界料理，從早餐到宵夜，提供您釋放心靈與感性的食尚美學饗宴！\n
+            整排的落地窗，可一覽綠意的楓香大道及享受溫暖和煦的陽光，華麗的大理石搭配典雅的香檳色系傢俱，
+            結合東西美學元素的細膩質感，為難得一見的時尚品味兼具的餐廳。\n
+            平日2人午餐75折，使用本優惠須先於網站：https://www.johoo777.com/購買。
+        </item>
+        <item>漢堡王於1982年在亞洲成立第一家門市，現在已分佈澳洲、紐西蘭、韓國、新加坡、台灣、馬來西亞、菲律賓、泰國、關島、大陸、日本、印尼等亞洲地區，超過700家門市。
+            台灣有31家漢堡王門市，並持續積極展店中提供給顧客合理的價格、高品質的產品、快速的服務以及乾淨的環境。\n
+            尊享BURGER KING漢堡王-雙層華堡/辣味雙層華堡超值量套餐(含中杯飲料及薯條輕鬆包)優惠價格新台幣109元(原價新台幣189元)。
+        </item>
+        <item>創始於西元1953年，海內外擁有187家分店。通過ISO 22000、ISO 9001驗證，並於2011唯一榮獲茶葉類台灣商業服務業優良品牌，
+            提供地道、香醇的台灣好茶，深受國際旅客喜愛，是台灣茶業界第一品牌。\n
+            消費單筆發票滿新台幣1,000元或以上享95折。
+        </item>
+        <item>
+            家樂福於1959年創立於法國，1963年第一間大型超市於法國開幕， 1999年與Promodes合併成為歐洲第一、世界第二大零售集團。Carrefour是家樂福原創母公司的法文名，
+            在台灣翻譯為「家樂福」是取「家家快樂又幸福」的意思，充分呼應了家樂福的經營理念。\n
+            結帳時直接出示在Mastercard官網上的家樂福優惠條碼(也可拍照或列印)及護照，即可享有會員價。\n
+            同日店內消費滿新台幣2,000元或以上可辦理退稅。
+        </item>
+        <item>
+            台北101 MALL精選國際時尚與精緻美饌，貼心考量消費者的需求，以世界級空間設計規劃，完美凝聚質感、氛圍、與建築藝術，以有形空間開創無限意境，
+            讓購物成為輕鬆舒適的享受。 憑Mastercard及護照可免費網上辦理「台北101國際貴賓卡」，並享以下優惠：\n
+            1.購買觀景台全票、快速通關票、紀念品，享9折優惠。(每卡每日限購4張) \n
+            2.館內精品、伴手禮，享9折優惠。 \n
+            3.享5%退稅及快速辦理服務。 \n
+            4.於B1服務台，出示結帳之Mastercard卡及館內不限金額消費發票，即享「101獨家紀念品」。
+        </item>
+    </string-array>
+
+    <string-array name="image_taiwan_uri">
+        <item>https://specials.priceless.com/zh-tw/homepage</item>
+        <item>https://specials.priceless.com/zh-tw/homepage</item>
+        <item>https://specials.priceless.com/zh-tw/homepage</item>
+        <item>https://specials.priceless.com/zh-tw/homepage</item>
+        <item>https://specials.priceless.com/zh-tw/homepage</item>
+    </string-array>
+
+    <!--中國-->
+    <array name="_images_china"> 　
+        <item>@drawable/c1</item>
+        <item>@drawable/c2</item>
+        <item>@drawable/c3</item>
+        <item>@drawable/c4</item>
+        <item>@drawable/c5</item>
+    </array>
+
+    <string-array name="image_china_titles">
+        <item>(中國信託)麥當勞 199</item>
+        <item>(中國信託)Foodpanda</item>
+        <item>(中國信託)cama現烘咖啡專門店</item>
+        <item>(中國信託)全聯福利中心PX Pay</item>
+        <item>(中國信託)屈臣氏</item>
+    </string-array>
+
+    <string-array name="image_china_content">
+        <item>活動期間：2019/04/17 ~ 2019/07/31\n每週三刷中信卡單筆滿199元，送大蛋捲冰淇淋兌換券乙張，刷LINE Pay卡再享Line Points 5%回饋</item>
+        <item>活動期間：2019/05/13 ~ 2019/05/31\n首次於本平台訂餐，單筆消費滿400元並輸入指定優惠碼，刷中信卡享現折200元。</item>
+        <item>活動期間：2019/04/01 ~ 2019/06/30\n每週一持中信LINE Pay卡於實體門市刷卡消費享LINE Points 12%回饋</item>
+        <item>活動期間：2019/05/24 ~ 2019/07/25\n加中信卡用PX Pay首刷滿額贈100點福利點，週日中信卡用PX Pay單筆滿額贈100點福利點</item>
+        <item>活動期間：2019/01/01 ~ 2019/06/30\n天天到屈臣氏綁定LINE Pay卡用LINE Pay付款，享LINE Points 5% 無上限回饋</item>
+    </string-array>
+
+    <string-array name="image_china_uri">
+        <item>https://www.ctbcbank.com/html/long/mcdonalds/index.html</item>
+        <item>https://www.ctbcbank.com/html/long/foodpanda/index.html</item>
+        <item>https://www.ctbcbank.com/html/201906/NB2019032709-30/index.html</item>
+        <item>https://www.ctbcbank.com/content/dam/minisite/recent/201907/NB2019052102-25/index.html</item>
+        <item>https://www.ctbcbank.com/tw/html/long/creditcard/LINEPay/stores.html#flex-c-watsons</item>
+    </string-array>
+
+    <!--notice-->
+    <array name="_notices">
+        <item>@drawable/n1</item>
+        <item>@drawable/n2</item>
+    </array>
+    <string-array name="notice_titles">
+        <item>(台灣銀行)東南旅行社 - 享公主號郵輪系列行程優惠價及新台幣1,000元折扣</item>
+        <item>(台灣銀行)義大天悅飯店 - 享雙人房優惠價新台幣3,500元起</item>
+    </string-array>
+
+    <string-array name="notice_content">
+        <item>「公主遊輪」為一全球性遊輪船隊，向來以「愛之船」以及「大船的設施與價格、小船的細緻與享受」等作為船隊品牌訴求而聞名全球。船隊擁有超過三萬個客艙床位、年度載客量約60萬人次、超過150條遍及全世界各主要海域航線、停靠造訪超過220個港口城市，並擁有自有的私島嶼，因為成為排名世界前三大的船隊。燦爛的陽光，湛藍的海洋，再也管不住奔放的心，在公主遊輪上，豐富的娛樂空間、多樣的休閒運動設施，讓您的假期滿載健康與歡樂的回憶。公主遊輪設備齊全，滿足不同年齡層動靜皆宜的需求，在船上您必能玩得盡情盡興。\n
+搭乘遊輪旅行，它不再只是一個交通工具，因為遊輪本身就是一個旅遊的目的地。\n
+向東南旅行社報名公主號郵輪系列行程享原優惠價外，每位旅客可再享折扣新台幣1,000元/人。\n
+使用本優惠須先於網站：https://www.johoo777.com/索取優惠序號。
+        </item>
+        <item>於高雄縣學府路與仁義路交接處之觀音山風景區，位於義守大學及義大國際國中小旁，占地約10245坪，與義大遊樂世界及義大世界廣場三方攜手，改變台灣的休閒場景，為全台灣唯一集遊樂、購物、觀光之渡假休閒飯店。 不論是要到高雄市區或高雄縣觀光景點均能快速抵達，另外飯店附近有佛光山及美濃老街等高雄熱門景點，旁邊更有同期興建完成之義大遊樂世界及義大世界廣場和高爾夫球場。\n
+享雙人房優惠價新台幣3,500元起，使用本優惠須先於網站：https://www.johoo777.com/購買。
+        </item>
+        </string-array>
+
+    <string-array name="notice_uri">
+        <item>https://specials.priceless.com/zh-tw/homepage</item>
+        <item>https://specials.priceless.com/zh-tw/homepage</item>
+    </string-array>
 </resources>

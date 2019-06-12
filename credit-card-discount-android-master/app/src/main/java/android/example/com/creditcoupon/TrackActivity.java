@@ -8,6 +8,7 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class TrackActivity extends AppCompatActivity {
     @Override
@@ -43,5 +44,20 @@ public class TrackActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void click_mount(View view) {
+        Intent intent = new Intent(this, TrackActivity_bank_mount.class);
+        startActivity(intent);
+    }
+
+    public void click_taiwan(View view) {
+        Intent intent = new Intent(this, TrackActivity_bank_taiwan.class);
+        startActivity(intent);
+    }
+
+    public void click_china(View view) {
+        Intent intent = new Intent(this, TrackActivity_bank_china.class);
+        startActivity(intent);
     }
 }

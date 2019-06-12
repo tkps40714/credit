@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
+
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +22,10 @@
         <activity android:name=".TrackActivity"></activity>
         <activity android:name=".NoticeActivity"></activity>
         <activity android:name=".MyActivity"></activity>
+        <activity android:name=".MainActivity_detail"></activity>
+        <activity android:name=".TrackActivity_bank_mount"></activity>
+        <activity android:name=".TrackActivity_bank_taiwan"></activity>
+        <activity android:name=".TrackActivity_bank_china"></activity>
     </application>
 
 </manifest>

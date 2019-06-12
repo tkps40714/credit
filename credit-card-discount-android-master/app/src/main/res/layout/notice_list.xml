@@ -26,22 +26,23 @@
 
 
         <ImageView
-            android:id="@+id/_Image"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"/>
+            android:id="@+id/_Notice"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true" />
 
-        <!-- 不顯示字，但要存，之後點擊進去可以顯示-->
-        <!--<TextView-->
-            <!--android:id="@+id/Image_title"-->
-            <!--style="@style/TextAppearance.AppCompat.Headline"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_alignBottom="@id/_Image"-->
-            <!--android:layout_marginBottom="-59dp"-->
-            <!--android:padding="8dp"-->
-            <!--android:text="Title"-->
-            <!--android:theme="@style/ThemeOverlay.AppCompat.Dark" />-->
+         <!--不顯示字，但要存，之後點擊進去可以顯示-->
+        <TextView
+            android:id="@+id/Notice_title"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/_Notice"
+            android:padding="8dp"
+            android:text="Title"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
 
 
     </RelativeLayout>
