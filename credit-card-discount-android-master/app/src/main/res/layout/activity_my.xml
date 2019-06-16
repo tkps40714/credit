@@ -6,15 +6,15 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MyActivity">
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
         android:layout_marginTop="100dp"
-        android:layout_marginBottom="60dp">
-
+        android:layout_marginBottom="60dp"
+        android:focusableInTouchMode="true">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
-                android:text="Favor Bank"
+                android:text="喜好銀行"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:textAllCaps="true"
@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="20dp"
-                android:text="Favor category"
+                android:text="喜好分類"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:textAllCaps="true"
@@ -77,7 +77,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="My"
+        android:text="帳戶"
+        android:onClick="editprofile"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textAllCaps="true"
@@ -90,7 +91,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
-        android:text="myname"
+        android:text="name"
+        android:onClick="editprofile"
         app:layout_constraintBottom_toBottomOf="@+id/message_collect"
         app:layout_constraintStart_toEndOf="@+id/message_collect"
         app:layout_constraintTop_toTopOf="@+id/message_collect" />
@@ -128,7 +130,7 @@
         android:layout_marginLeft="6dp"
         android:layout_marginTop="6dp"
         android:text="銀行"
-
+        android:onClick="editprofile"
         app:layout_constraintStart_toStartOf="@+id/message_collect"
         app:layout_constraintTop_toBottomOf="@id/message_collect" />
 
@@ -140,6 +142,7 @@
         android:layout_marginLeft="6dp"
         android:layout_marginTop="3dp"
         android:text="喜好"
+        android:onClick="editprofile"
         app:layout_constraintStart_toStartOf="@+id/message_collect"
         app:layout_constraintTop_toBottomOf="@id/text_bank" />
 
@@ -150,6 +153,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:text="玉山"
+        android:onClick="editprofile"
         app:layout_constraintStart_toEndOf="@+id/text_bank"
         app:layout_constraintTop_toTopOf="@+id/text_bank" />
 
@@ -159,7 +163,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-
+        android:onClick="editprofile"
         android:text="吃吃"
         app:layout_constraintStart_toEndOf="@+id/text_favor"
         app:layout_constraintTop_toTopOf="@+id/text_favor" />

@@ -12,6 +12,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -25,6 +26,8 @@ public class MyActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView_bkfvr;
     private TextView Favor_bank;
     private TextView Favor_catrgory;
+    private TextView mname;
+    public static final int EDIT_REQUEST = 1;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +35,7 @@ public class MyActivity extends AppCompatActivity {
 
         Favor_bank = findViewById(R.id.text_bank_editable);
         Favor_catrgory = findViewById(R.id.text_favor_editable);
-
+        mname = findViewById(R.id.myname);
         final BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         Menu menu = navigation.getMenu();
         MenuItem menuItem = menu.getItem(3);
@@ -97,20 +100,30 @@ public class MyActivity extends AppCompatActivity {
 //                super.onScrollStateChanged(recyclerView, newState);
 //            }
 //        });
-
-        Favor_catrgory.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view){
-
-            }
-        });
-        Favor_bank.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view){
-
-            }
-        });
+//
+//        Favor_catrgory.setOnClickListener(new View.OnClickListener(){
+//            public void onClick(View view){
+//                editprofile();
+//            }
+//        });
+//        Favor_bank.setOnClickListener(new View.OnClickListener(){
+//            public void onClick(View view){
+//                editprofile();
+//            }
+//        });
     }
 
-
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent intent){
+        super.onActivityResult(requestCode, resultCode, intent);
+        if (requestCode == EDIT_REQUEST){
+            if (resultCode == RESULT_OK){
+                Favor_bank.setText(intent.getCharSequenceExtra("bank"));
+                mname.setText(intent.getCharSequenceExtra("name"));
+                Favor_catrgory.setText(intent.getCharSequenceExtra("favor"));
+            }
+        }
+    }
     /**
      * Initialize the image data from resources.
      */
@@ -170,7 +183,13 @@ public class MyActivity extends AppCompatActivity {
         mAdapter.notifyDataSetChanged();
         mAdapter_bkfvr.notifyDataSetChanged();
     }
-    public void editprofile(){
 
+
+    public void editprofile(View view) {
+        Intent intent = new Intent(this, EditProfile.class);
+        intent.putExtra("bank", Favor_bank.getText());
+        intent.putExtra("name", mname.getText());
+        intent.putExtra("favor", Favor_catrgory.getText());
+        startActivityForResult(intent, EDIT_REQUEST);
     }
 }
