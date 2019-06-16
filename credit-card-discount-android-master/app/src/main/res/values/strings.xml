@@ -9,7 +9,7 @@
     <string name="notification_text">You get new coupons!!</string>
 
     <!--玉山-->
-    <array name="_images_mount"> 　
+    <array name="_images_mount">　
         <item>@drawable/m1</item>
         <item>@drawable/m2</item>
         <item>@drawable/m3</item>
@@ -42,7 +42,7 @@
     </string-array>
 
     <!--台銀-->
-    <array name="_images_taiwan"> 　
+    <array name="_images_taiwan">　
         <item>@drawable/t1</item>
         <item>@drawable/t2</item>
         <item>@drawable/t3</item>
@@ -97,7 +97,7 @@
     </string-array>
 
     <!--中國-->
-    <array name="_images_china"> 　
+    <array name="_images_china">　
         <item>@drawable/c1</item>
         <item>@drawable/c2</item>
         <item>@drawable/c3</item>
@@ -148,10 +148,11 @@
         <item>於高雄縣學府路與仁義路交接處之觀音山風景區，位於義守大學及義大國際國中小旁，占地約10245坪，與義大遊樂世界及義大世界廣場三方攜手，改變台灣的休閒場景，為全台灣唯一集遊樂、購物、觀光之渡假休閒飯店。 不論是要到高雄市區或高雄縣觀光景點均能快速抵達，另外飯店附近有佛光山及美濃老街等高雄熱門景點，旁邊更有同期興建完成之義大遊樂世界及義大世界廣場和高爾夫球場。\n
 享雙人房優惠價新台幣3,500元起，使用本優惠須先於網站：https://www.johoo777.com/購買。
         </item>
-        </string-array>
+    </string-array>
 
     <string-array name="notice_uri">
         <item>https://specials.priceless.com/zh-tw/homepage</item>
         <item>https://specials.priceless.com/zh-tw/homepage</item>
     </string-array>
+    <string name="title_activity_edit_profile">EditProfile</string>
 </resources>
